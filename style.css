@@ -8,3 +8,61 @@ body {
   height:50px;
   border-radius: 100%;
 }
+
+.border-img {
+  height: 240px;
+  width: 240px;
+  position: relative;
+  border-image: url(images/abstract.jpeg);
+  background-clip: padding-box;
+  padding: 50px;
+  left: 25%;
+}
+
+.wrap {
+  width: 90px;
+  overflow-wrap: break-word;
+  background-color: green;
+  color: orange;
+}
+
+.icup {
+
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 1s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
