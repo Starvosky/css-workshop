@@ -44,8 +44,20 @@ body {
   border-image-slice: 1;
 }
 
+.transition {
+  height: 200px;
+  width: 500px;
+  background: linear-gradient(to right, red, white, blue);
+  transition: height 3s, width 3s, transform 2s;
+}
+
+.transition:hover {
+  height: 100px;
+  width: 100px; 
+  transform: rotate(180deg);
+}
 .tryme span:nth-of-type(even){
-    color:green;
+    color:orange;
 }
 .tryme span:nth-of-type(odd){
     color:red;
