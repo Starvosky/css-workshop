@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: ghostwhite;
 }
 
 .border-radius {
@@ -21,16 +21,36 @@ body {
 
 .wrap {
   width: 90px;
+  height: 90px;
   overflow-wrap: break-word;
   background: green;
   color: orange;
 }
 
-.icup {
-
+.gradient {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255,255,255,255), red 50%);
+  background: -webkit-repeating-radial-gradient(rgba(255,255,255,255), red 50%);
+  background: -moz-repeating-radial-gradient(rgba(255,255,255,255), red 50%);
+  background: -o-repeating-radial-gradient(rgba(255,255,255,255), red 50%);
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(45% deg, grey,black,red);
+  border-image: linear-gradient(grey,black,red);
+  border-image: linear-gradient(grey,black,red);
+  border-image: linear-gradient(grey,black,red);
+  border-image-slice: 1;
 }
 
-.rainbow {
+.tryme span:nth-of-type(even){
+    color:green;
+}
+.tryme span:nth-of-type(odd){
+    color:red;
+}
+.icup {
    /* Chrome, Safari, Opera */
   -webkit-animation: rainbow 1s infinite;
 
@@ -65,4 +85,8 @@ body {
 	60%{color: green;}
 	80%{color: blue;}
 	100%{color: orange;}
+}
+
+.babygotback {
+  background-color: red;
 }
