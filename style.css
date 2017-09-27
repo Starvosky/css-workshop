@@ -22,7 +22,7 @@ body {
 .wrap {
   width: 90px;
   overflow-wrap: break-word;
-  background-color: green;
+  background: green;
   color: orange;
 }
 
