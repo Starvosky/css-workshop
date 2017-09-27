@@ -1,0 +1,10 @@
+body {
+  background-color: grey;
+}
+
+.border-radius {
+  border: blue groove 5px;
+  width: 50px;
+  height:50px;
+  border-radius: 100%;
+}
